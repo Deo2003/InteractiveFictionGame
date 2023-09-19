@@ -1,0 +1,1423 @@
+{
+  "story": "AfterDark",
+  "startnode": "1",
+  "passages": [
+    {
+      "name": "AfterDark: Chapter One ",
+      "tags": "",
+      "pid": "1",
+      "original": "A lakeside party amidst whispering trees. Laughter and music fill the air as a group of eager freshmen gather for a night of revelry by Lake Monroe. As the sun dips below the horizon, the atmosphere shifts. Shadows lengthen, and with each passing hour, the group dwindles. Stay vigilant as the joyous evening turns into a chilling ordeal, and the true nature of the darkness emerges.\n\n[[Begin Game->Characters]]",
+      "links": [
+        {
+          "original": "[[Begin Game->Characters]]",
+          "label": "\u001b[36mBegin Game\u001b[37m",
+          "newPassage": "Characters",
+          "pid": "2",
+          "selection": "1"
+        }
+      ],
+      "text": "A lakeside party amidst whispering trees. Laughter and music fill the air as a group of eager freshmen gather for a night of revelry by Lake Monroe. As the sun dips below the horizon, the atmosphere shifts. Shadows lengthen, and with each passing hour, the group dwindles. Stay vigilant as the joyous evening turns into a chilling ordeal, and the true nature of the darkness emerges."
+    },
+    {
+      "name": "Characters",
+      "tags": "",
+      "pid": "2",
+      "original": "It's 7pm, an hour before the party. You catch a glimpse of yourself in the mirror and see...\n\n[[Jamie->Jamie's story]]\n[[Mark->Mark's story]]\n[[Simon->Simon's story]]",
+      "links": [
+        {
+          "original": "[[Jamie->Jamie's story]]",
+          "label": "\u001b[36mJamie\u001b[37m",
+          "newPassage": "Jamie's story",
+          "pid": "3",
+          "selection": "1"
+        },
+        {
+          "original": "[[Mark->Mark's story]]",
+          "label": "\u001b[36mMark\u001b[37m",
+          "newPassage": "Mark's story",
+          "pid": "4",
+          "selection": "2"
+        },
+        {
+          "original": "[[Simon->Simon's story]]",
+          "label": "\u001b[36mSimon\u001b[37m",
+          "newPassage": "Simon's story",
+          "pid": "5",
+          "selection": "3"
+        }
+      ],
+      "text": "It's 7pm, an hour before the party. You catch a glimpse of yourself in the mirror and see..."
+    },
+    {
+      "name": "Jamie's story",
+      "tags": "",
+      "pid": "3",
+      "original": "You stand before your mirror, excitement and anticipation coursing through your veins. Tonight is the night of the party by Lake Monroe, and you are determined to make it memorable.\n\nTonight's party by Lake Monroe could be the perfect opportunity to get to know Dani better.\n\n[[Invite Dani->Phone Call]]\n[[Chicken out->Without Dani]]",
+      "links": [
+        {
+          "original": "[[Invite Dani->Phone Call]]",
+          "label": "\u001b[36mInvite Dani\u001b[37m",
+          "newPassage": "Phone Call",
+          "pid": "50",
+          "selection": "1"
+        },
+        {
+          "original": "[[Chicken out->Without Dani]]",
+          "label": "\u001b[36mChicken out\u001b[37m",
+          "newPassage": "Without Dani",
+          "pid": "51",
+          "selection": "2"
+        }
+      ],
+      "text": "You stand before your mirror, excitement and anticipation coursing through your veins. Tonight is the night of the party by Lake Monroe, and you are determined to make it memorable.\n\nTonight's party by Lake Monroe could be the perfect opportunity to get to know Dani better."
+    },
+    {
+      "name": "Mark's story",
+      "tags": "",
+      "pid": "4",
+      "original": "You and your friends have been looking forward to this party since you saw the flyer this afternoon. Too bad you don't have a car. Thank the heavens for Simon, who promised to give you guys a ride, even after his marathon computer lab. \n\n[[Go pick them up->The Car ride]]",
+      "links": [
+        {
+          "original": "[[Go pick them up->The Car ride]]",
+          "label": "\u001b[36mGo pick them up\u001b[37m",
+          "newPassage": "The Car ride",
+          "pid": "7",
+          "selection": "1"
+        }
+      ],
+      "text": "You and your friends have been looking forward to this party since you saw the flyer this afternoon. Too bad you don't have a car. Thank the heavens for Simon, who promised to give you guys a ride, even after his marathon computer lab."
+    },
+    {
+      "name": "Simon's story",
+      "tags": "",
+      "pid": "5",
+      "original": "Having just returned from a grueling 2-hour computer science lab, weariness etched into your features, you honestly aren't too excited about the party. Despite your reluctance, you are determined to honor Mark's (your rooommate) commitment to the party, and drive him and a couple friends to the party.\n\n[[Go to the party->The Party (Simon)]]",
+      "links": [
+        {
+          "original": "[[Go to the party->The Party (Simon)]]",
+          "label": "\u001b[36mGo to the party\u001b[37m",
+          "newPassage": "The Party (Simon)",
+          "pid": "6",
+          "selection": "1"
+        }
+      ],
+      "text": "Having just returned from a grueling 2-hour computer science lab, weariness etched into your features, you honestly aren't too excited about the party. Despite your reluctance, you are determined to honor Mark's (your rooommate) commitment to the party, and drive him and a couple friends to the party."
+    },
+    {
+      "name": "The Party (Simon)",
+      "tags": "",
+      "pid": "6",
+      "original": "At the party, you sticks to the shadows, avoiding the revelry and refraining from drinks. After precisely 30 minutes, you sidle up to an already intoxicated Mark, announcing your departure plan. \"I'm out,\" you murmurs, urging Mark to text you when he's ready for a ride back to the dorm. \n\n[[Head to the car->The Clearing]]",
+      "links": [
+        {
+          "original": "[[Head to the car->The Clearing]]",
+          "label": "\u001b[36mHead to the car\u001b[37m",
+          "newPassage": "The Clearing",
+          "pid": "8",
+          "selection": "1"
+        }
+      ],
+      "text": "At the party, you sticks to the shadows, avoiding the revelry and refraining from drinks. After precisely 30 minutes, you sidle up to an already intoxicated Mark, announcing your departure plan. \"I'm out,\" you murmurs, urging Mark to text you when he's ready for a ride back to the dorm."
+    },
+    {
+      "name": "The Car ride",
+      "tags": "",
+      "pid": "7",
+      "original": "First to be picked up is Luke. En route to Jamie's place, your phone buzzes with a text from her. In the message, she asks if it alright by you if she brings a friend to tag along for the ride to the party. \n\nyou text back\n[[ofc! omw->Jamie's place]]",
+      "links": [
+        {
+          "original": "[[ofc! omw->Jamie's place]]",
+          "label": "\u001b[36mofc! omw\u001b[37m",
+          "newPassage": "Jamie's place",
+          "pid": "11",
+          "selection": "1"
+        }
+      ],
+      "text": "First to be picked up is Luke. En route to Jamie's place, your phone buzzes with a text from her. In the message, she asks if it alright by you if she brings a friend to tag along for the ride to the party. \n\nyou text back"
+    },
+    {
+      "name": "The Clearing",
+      "tags": "",
+      "pid": "8",
+      "original": "You head back to the clearing in the woods, where you parked your car. Your gaze catches a sight that chills down your spine: a slender, ethereal figure amidst the trees. \n\n[[Get a closer look->Ending1]]\n[[It's probably just a deer->Ending2]]",
+      "links": [
+        {
+          "original": "[[Get a closer look->Ending1]]",
+          "label": "\u001b[36mGet a closer look\u001b[37m",
+          "newPassage": "Ending1",
+          "pid": "9",
+          "selection": "1"
+        },
+        {
+          "original": "[[It's probably just a deer->Ending2]]",
+          "label": "\u001b[36mIt's probably just a deer\u001b[37m",
+          "newPassage": "Ending2",
+          "pid": "10",
+          "selection": "2"
+        }
+      ],
+      "text": "You head back to the clearing in the woods, where you parked your car. Your gaze catches a sight that chills down your spine: a slender, ethereal figure amidst the trees."
+    },
+    {
+      "name": "Ending1",
+      "tags": "",
+      "pid": "9",
+      "original": "Driven by curiosity, you inch closer to the figure. As you takes tentative steps, A branch snaps behind, and you feel your heart leap into your throat. Whipping back around, you find emptiness where the figure once stood. Heart pounding, you pivot towards your car, but you don't make it any further. Frozen in terror, your screams die with you, strangled by the creature's ghastly assault.\n\n[[You have died->Restart]]",
+      "links": [
+        {
+          "original": "[[You have died->Restart]]",
+          "label": "\u001b[36mYou have died\u001b[37m",
+          "newPassage": "Restart",
+          "pid": "24",
+          "selection": "1"
+        }
+      ],
+      "text": "Driven by curiosity, you inch closer to the figure. As you takes tentative steps, A branch snaps behind, and you feel your heart leap into your throat. Whipping back around, you find emptiness where the figure once stood. Heart pounding, you pivot towards your car, but you don't make it any further. Frozen in terror, your screams die with you, strangled by the creature's ghastly assault."
+    },
+    {
+      "name": "Ending2",
+      "tags": "",
+      "pid": "10",
+      "original": "Dismissive of the figure, you brushes it off as likely being a deer or some innocuous creature. You continue towards your car, get into the driver's seat, and start the engine. You spare one more look up, but find nothing but trees. The drive home is peaceful and you take a nap on the couch, while you wait for Mark's text.\n\n[[You story ends here->Restart]]",
+      "links": [
+        {
+          "original": "[[You story ends here->Restart]]",
+          "label": "\u001b[36mYou story ends here\u001b[37m",
+          "newPassage": "Restart",
+          "pid": "24",
+          "selection": "1"
+        }
+      ],
+      "text": "Dismissive of the figure, you brushes it off as likely being a deer or some innocuous creature. You continue towards your car, get into the driver's seat, and start the engine. You spare one more look up, but find nothing but trees. The drive home is peaceful and you take a nap on the couch, while you wait for Mark's text."
+    },
+    {
+      "name": "Jamie's place",
+      "tags": "",
+      "pid": "11",
+      "original": "Simon pulls up at Jamie's, picking her up alongside her friend, Dani. They all pile into the car and make their way to the party. \n\nSimon turns on the radio, and a Taylor Swift song blasts out the speakers. Dani, Jamie, and Luke scream out the lyrics.\n\n[[You join in->The Party (Mark)]]",
+      "links": [
+        {
+          "original": "[[You join in->The Party (Mark)]]",
+          "label": "\u001b[36mYou join in\u001b[37m",
+          "newPassage": "The Party (Mark)",
+          "pid": "12",
+          "selection": "1"
+        }
+      ],
+      "text": "Simon pulls up at Jamie's, picking her up alongside her friend, Dani. They all pile into the car and make their way to the party. \n\nSimon turns on the radio, and a Taylor Swift song blasts out the speakers. Dani, Jamie, and Luke scream out the lyrics."
+    },
+    {
+      "name": "The Party (Mark)",
+      "tags": "",
+      "pid": "12",
+      "original": "At the party, you, being known for your sociable nature, effortlessly engage with various people, reveling in the atmosphere. A friend offers you a drink.\n\n[[You accept it->Drunk Mark]]\n[[You take it easy->Sober Mark]]",
+      "links": [
+        {
+          "original": "[[You accept it->Drunk Mark]]",
+          "label": "\u001b[36mYou accept it\u001b[37m",
+          "newPassage": "Drunk Mark",
+          "pid": "13",
+          "selection": "1"
+        },
+        {
+          "original": "[[You take it easy->Sober Mark]]",
+          "label": "\u001b[36You take it easy\u001b[37m",
+          "newPassage": "Sober Mark",
+          "pid": "14",
+          "selection": "2"
+        }
+      ],
+      "text": "At the party, you, being known for your sociable nature, effortlessly engage with various people, reveling in the atmosphere. A friend offers you a drink."
+    },
+    {
+      "name": "Drunk Mark",
+      "tags": "",
+      "pid": "13",
+      "original": "The drinks flow freely, and by 10 pm, you're already teetering on the edge of drunkenness. Faint memories of Simon's departure flit through your inebriated mind, but they're too blurred to grasp. The night at Lake Monroe becomes a hazy, disorienting whirlwind of laughter.\n\n[[You stay at the party->The Dare]]",
+      "links": [
+        {
+          "original": "[[You stay at the party->The Dare]]",
+          "label": "\u001b[36mYou stay at the party\u001b[37m",
+          "newPassage": "The Dare",
+          "pid": "19",
+          "selection": "1"
+        }
+      ],
+      "text": "The drinks flow freely, and by 10 pm, you're already teetering on the edge of drunkenness. Faint memories of Simon's departure flit through your inebriated mind, but they're too blurred to grasp. The night at Lake Monroe becomes a hazy, disorienting whirlwind of laughter."
+    },
+    {
+      "name": "Sober Mark",
+      "tags": "",
+      "pid": "14",
+      "original": "You bump into your friend Sally for your Media 101 class. She's already wasted, so you decide to remain sober, ensuring you'll be in a condition to drive her home later with her car.\n\n[[Drive Sally home->Sally's Home]]",
+      "links": [
+        {
+          "original": "[[Drive Sally home->Sally's Home]]",
+          "label": "\u001b[36mDrive Sally home\u001b[37m",
+          "newPassage": "Sally's Home",
+          "pid": "15",
+          "selection": "1"
+        }
+      ],
+      "text": "You bump into your friend Sally for your Media 101 class. She's already wasted, so you decide to remain sober, ensuring you'll be in a condition to drive her home later with her car."
+    },
+    {
+      "name": "Sally's Home",
+      "tags": "",
+      "pid": "15",
+      "original": "After spending a short while at the party, You keep your word and drive Sally back home with her car. After handing her off to her roommates, you get a text:\n\nLuke: \"where are you at?\"\n\nYou: \"had to drive a friend home\"\n\nLuke: \"heading back here?\"\n\nYou hesitate for a while to think, then reply with\n[[You: Probably going to call it a night->Ending3]]\n\n[[You: already called the Uber!->Back at the Party]]",
+      "links": [
+        {
+          "original": "[[You: Probably going to call it a night->Ending3]]",
+          "label": "\u001b[36mYou: Probably going to call it a night\u001b[37m",
+          "newPassage": "Ending3",
+          "pid": "16",
+          "selection": "1"
+        },
+        {
+          "original": "[[You: already called the Uber!->Back at the Party]]",
+          "label": "\u001b[36mYou: already called the Lyft!\u001b[37m",
+          "newPassage": "Back at the Party",
+          "pid": "18",
+          "selection": "2"
+        }
+      ],
+      "text": "After spending a short while at the party, You keep your word and drive Sally back home with her car. After handing her off to her roommates, you get a text:\n\nLuke: \"where are you at?\"\n\nYou: \"had to drive a friend home\"\n\nLuke: \"heading back here?\"\n\nYou hesitate for a while to think, then reply with"
+    },
+    {
+      "name": "Ending3",
+      "tags": "",
+      "pid": "16",
+      "original": "After dropping Sally home, you decide to call it a night and head back to your dorm, opting for the comfort of your bed. \n\n [[You story ends here->Restart]]",
+      "links": [
+        {
+          "original": "[[You story ends here->Restart]]",
+          "label": "\u001b[36mYou story ends here\u001b[37m",
+          "newPassage": "Restart",
+          "pid": "24",
+          "selection": "1"
+        }
+      ],
+      "text": "After dropping Sally home, you decide to call it a night and head back to your dorm, opting for the comfort of your bed."
+    },
+    {
+      "name": "The Swim",
+      "tags": "",
+      "pid": "17",
+      "original": "When dared to go swimming in the darkened lake, you laugh off any reservations and plunges into the water. The partygoers cheer as your laughter mingles with the eerie sounds of the night. \n\nTaking off you t-shirt and handing your phone and wallet to Luke\n[[You go for a swim->In the Lake]]",
+      "links": [
+        {
+          "original": "[[You go for a swim->In the Lake]]",
+          "label": "\u001b[36mYou go for a swim\u001b[37m",
+          "newPassage": "In the Lake",
+          "pid": "21",
+          "selection": "1"
+        }
+      ],
+      "text": "When dared to go swimming in the darkened lake, you laugh off any reservations and plunges into the water. The partygoers cheer as your laughter mingles with the eerie sounds of the night. \n\nTaking off you t-shirt and handing your phone and wallet to Luke"
+    },
+    {
+      "name": "Back at the Party",
+      "tags": "",
+      "pid": "18",
+      "original": "In a change of heart, you return to the party, giving in to the allure of the night. \n\n[[You have a couple drinks->The Dare]]",
+      "links": [
+        {
+          "original": "[[You have a couple drinks->The Dare]]",
+          "label": "\u001b[36mYou have a couple drinks\u001b[37m",
+          "newPassage": "The Dare",
+          "pid": "19",
+          "selection": "1"
+        }
+      ],
+      "text": "In a change of heart, you return to the party, giving in to the allure of the night."
+    },
+    {
+      "name": "The Dare",
+      "tags": "",
+      "pid": "19",
+      "original": "Drunk and carefree, you eagerly join a game of truth or dare, your inhibitions slipping away. Luke dares you to go for a swim in the now pitch black lake.\n\n[[I bet you I can swim to the other side->The Swim]]\n[[Nah, I'm not that drunk->Sam]]",
+      "links": [
+        {
+          "original": "[[I bet you I can swim to the other side->The Swim]]",
+          "label": "\u001b[36mI bet you I can swim to the other side\u001b[37m",
+          "newPassage": "The Swim",
+          "pid": "17",
+          "selection": "1"
+        },
+        {
+          "original": "[[Nah, I'm not that drunk->Sam]]",
+          "label": "\u001b[36mNah, I'm not that drunk\u001b[37m",
+          "newPassage": "Sam",
+          "pid": "20",
+          "selection": "2"
+        }
+      ],
+      "text": "Drunk and carefree, you eagerly join a game of truth or dare, your inhibitions slipping away. Luke dares you to go for a swim in the now pitch black lake."
+    },
+    {
+      "name": "Sam",
+      "tags": "",
+      "pid": "20",
+      "original": "You decline Luke's dare to go into the lake, opting for a safer path. However, a daring kid named Sam seizes the opportunity and accepts the challenge with enthusiasm.\n\n[[Sam goes for a swim->Sam in the lake]]",
+      "links": [
+        {
+          "original": "[[Sam goes for a swim->Sam in the lake]]",
+          "label": "\u001b[36mSam goes for a swim\u001b[37m",
+          "newPassage": "Sam in the lake",
+          "pid": "25",
+          "selection": "1"
+        }
+      ],
+      "text": "You decline Luke's dare to go into the lake, opting for a safer path. However, a daring kid named Sam seizes the opportunity and accepts the challenge with enthusiasm."
+    },
+    {
+      "name": "In the Lake",
+      "tags": "",
+      "pid": "21",
+      "original": "You relish the thrill of the dare, splashing around and having a blast in the lake as cheers erupt from the shore. Laughter and exhilaration fill the night air as you play along with Luke's dare.\n\nIn the water, your carefree demeanor turns to panic as an unsettling sensation brushes against your legs. \n\n[[You turn around->The Figure]]",
+      "links": [
+        {
+          "original": "[[You turn around->The Figure]]",
+          "label": "\u001b[36mYou turn around\u001b[37m",
+          "newPassage": "The Figure",
+          "pid": "22",
+          "selection": "1"
+        }
+      ],
+      "text": "You relish the thrill of the dare, splashing around and having a blast in the lake as cheers erupt from the shore. Laughter and exhilaration fill the night air as you play along with Luke's dare.\n\nIn the water, your carefree demeanor turns to panic as an unsettling sensation brushes against your legs."
+    },
+    {
+      "name": "The Figure",
+      "tags": "",
+      "pid": "22",
+      "original": "You frantically turn to locate the source, and to your horror, a figure begins to emerge from the lake, just a few feet away. A ghoulish and ethereal presence that faintly resembles a woman. Her form is almost translucent, like a specter woven from the moonlight itself. Her pallid skin clings to her skeletal frame, and her hair flows like liquid darkness around her. But it's her eyes that pierce the night — two orbs of pure, blinding white that seem to emit their own ghostly light. Those eyes fixate on you, their intensity sending shivers through the onlookers on the shore\n\nShe draws nearer to you, appearing to walk on the water's surface.\n\n[[Swim away->Ending4]]",
+      "links": [
+        {
+          "original": "[[Swim away->Ending4]]",
+          "label": "\u001b[36mSwim away\u001b[37m",
+          "newPassage": "Ending4",
+          "pid": "23",
+          "selection": "1"
+        }
+      ],
+      "text": "You frantically turn to locate the source, and to your horror, a figure begins to emerge from the lake, just a few feet away. A ghoulish and ethereal presence that faintly resembles a woman. Her form is almost translucent, like a specter woven from the moonlight itself. Her pallid skin clings to her skeletal frame, and her hair flows like liquid darkness around her. But it's her eyes that pierce the night — two orbs of pure, blinding white that seem to emit their own ghostly light. Those eyes fixate on you, their intensity sending shivers through the onlookers on the shore\n\nShe draws nearer to you, appearing to walk on the water's surface."
+    },
+    {
+      "name": "Ending4",
+      "tags": "",
+      "pid": "23",
+      "original": "Terrified, You attempt to swim away, but the spectral figure swiftly closes the gap. With a haunting grace, she dives into the inky depths of Lake Monroe, her cold, clammy hands gripping your ankles. Panic courses through you as you're dragged beneath the surface, the murky waters swallowing you whole. The panicked sounds from the shore fade into a distant memory, replaced by the suffocating embrace of the lake's depths.\n\n[[You have die->Restart]]",
+      "links": [
+        {
+          "original": "[[You have die->Restart]]",
+          "label": "\u001b[36mYou have die\u001b[37m",
+          "newPassage": "Restart",
+          "pid": "24",
+          "selection": "1"
+        }
+      ],
+      "text": "Terrified, You attempt to swim away, but the spectral figure swiftly closes the gap. With a haunting grace, she dives into the inky depths of Lake Monroe, her cold, clammy hands gripping your ankles. Panic courses through you as you're dragged beneath the surface, the murky waters swallowing you whole. The panicked sounds from the shore fade into a distant memory, replaced by the suffocating embrace of the lake's depths."
+    },
+    {
+      "name": "Restart",
+      "tags": "",
+      "pid": "24",
+      "original": "[[Restart for alternative endings->AfterDark: Chapter One ]]",
+      "links": [
+        {
+          "original": "[[Restart for alternative endings->AfterDark: Chapter One ]]",
+          "label": "\u001b[36mRestart for alternative endings\u001b[37m",
+          "newPassage": "AfterDark: Chapter One ",
+          "pid": "1",
+          "selection": "1"
+        }
+      ],
+      "text": ""
+    },
+    {
+      "name": "Sam in the lake",
+      "tags": "",
+      "pid": "25",
+      "original": "As Sam frolics in the lake, you and a few others catch sight of a figure behind him, half-emerged from the water's depths. Panic surges through you, and you frantically signal to Sam, urging him to get out of the water. The partygoers on the shore grow increasingly alarmed as the ominous figure draws nearer to Sam.\n\n[[Sam finally turns around->Sam sees the figure]]",
+      "links": [
+        {
+          "original": "[[Sam finally turns around->Sam sees the figure]]",
+          "label": "\u001b[36mSam finally turns around\u001b[37m",
+          "newPassage": "Sam sees the figure",
+          "pid": "26",
+          "selection": "1"
+        }
+      ],
+      "text": "As Sam frolics in the lake, you and a few others catch sight of a figure behind him, half-emerged from the water's depths. Panic surges through you, and you frantically signal to Sam, urging him to get out of the water. The partygoers on the shore grow increasingly alarmed as the ominous figure draws nearer to Sam."
+    },
+    {
+      "name": "Sam sees the figure",
+      "tags": "",
+      "pid": "26",
+      "original": "Sam finally turns, and to his horror, he comes face to face with the figure. A ghoulish and ethereal presence that faintly resembles a woman. Her form is almost translucent, like a specter woven from the moonlight itself. Her pallid skin clings to her skeletal frame, and her hair flows like liquid darkness around her. But it's her eyes that pierce the night — two orbs of pure, blinding white that seem to emit their own ghostly light. Those eyes fixate on Sam, their intensity sending shivers through the onlookers on the shore.\n\n[[Sam tries to swim away->Sam's death]]",
+      "links": [
+        {
+          "original": "[[Sam tries to swim away->Sam's death]]",
+          "label": "\u001b[36mSam tries to swim away\u001b[37m",
+          "newPassage": "Sam's death",
+          "pid": "27",
+          "selection": "1"
+        }
+      ],
+      "text": "Sam finally turns, and to his horror, he comes face to face with the figure. A ghoulish and ethereal presence that faintly resembles a woman. Her form is almost translucent, like a specter woven from the moonlight itself. Her pallid skin clings to her skeletal frame, and her hair flows like liquid darkness around her. But it's her eyes that pierce the night — two orbs of pure, blinding white that seem to emit their own ghostly light. Those eyes fixate on Sam, their intensity sending shivers through the onlookers on the shore."
+    },
+    {
+      "name": "Sam's death",
+      "tags": "",
+      "pid": "27",
+      "original": "You watch a terrified Sam attempt to swim away, but the spectral figure swiftly closes the gap. With a haunting grace, she dives into the inky depths of Lake Monroe, her cold, clammy hands gripping his ankles. You feel a scream catch in your throat as you watch helplessly as Sam gets dragged beneath the surface, the murky waters swallowing him whole. \n\n[[...->Aftermath]]",
+      "links": [
+        {
+          "original": "[[...->Aftermath]]",
+          "label": "\u001b[36m...\u001b[37m",
+          "newPassage": "Aftermath",
+          "pid": "28",
+          "selection": "1"
+        }
+      ],
+      "text": "You watch a terrified Sam attempt to swim away, but the spectral figure swiftly closes the gap. With a haunting grace, she dives into the inky depths of Lake Monroe, her cold, clammy hands gripping his ankles. You feel a scream catch in your throat as you watch helplessly as Sam gets dragged beneath the surface, the murky waters swallowing him whole."
+    },
+    {
+      "name": "Aftermath",
+      "tags": "",
+      "pid": "28",
+      "original": "The shore falls into an eerie silence, gripped by shock and an understanding of Sam's tragic fate. But just as the chilling silence descends, your ears catch a blood-curdling scream erupting from behind you. \n\n[[What was that?!->The Massarce]]",
+      "links": [
+        {
+          "original": "[[What was that?!->The Massarce]]",
+          "label": "\u001b[36mWhat was that?!\u001b[37m",
+          "newPassage": "The Massacre",
+          "pid": "29",
+          "selection": "1"
+        }
+      ],
+      "text": "The shore falls into an eerie silence, gripped by shock and an understanding of Sam's tragic fate. But just as the chilling silence descends, your ears catch a blood-curdling scream erupting from behind you."
+    },
+    {
+      "name": "The Massacre",
+      "tags": "",
+      "pid": "29",
+      "original": "As your gaze shifts towards the source of the scream, your blood runs cold. A nightmarish scene unfolds before you. Surrounding your friends and fellow party-goers are a grotesque swarm of anthropomorphic swamp creatures, their forms twisted into grotesque combinations of human and other. Panic surges, and you realizes that Lake Monroe conceals not just one, but multiple horrors that have come to life under the cover of darkness. The night's descent into chaos and terror becomes an inescapable reality.\n\n[[You look for your friends->The Shelter House]]",
+      "links": [
+        {
+          "original": "[[You look for your friends->The Shelter House]]",
+          "label": "\u001b[36mYou look for your friends\u001b[37m",
+          "newPassage": "The Shelter House",
+          "pid": "30",
+          "selection": "1"
+        }
+      ],
+      "text": "As your gaze shifts towards the source of the scream, your blood runs cold. A nightmarish scene unfolds before you. Surrounding your friends and fellow party-goers are a grotesque swarm of anthropomorphic swamp creatures, their forms twisted into grotesque combinations of human and other. Panic surges, and you realizes that Lake Monroe conceals not just one, but multiple horrors that have come to life under the cover of darkness. The night's descent into chaos and terror becomes an inescapable reality."
+    },
+    {
+      "name": "The Shelter House",
+      "tags": "",
+      "pid": "30",
+      "original": "Amidst the chaos, Mark, Luke, and Jamie navigate through the nightmarish scene, finding refuge in a nearby Shelter House. Fear and confusion grip them as they catch their breath, sheltered temporarily from the horrors outside. But Jamie's concern for Dani drives her to insist on going back to rescue her. Luke disagrees and vots to remain in their hiding place until the cops arrive. They turn to you for the tie breaker.\n\n[[Still in shock, you say nothing->The Creature]]\n[[You choose to stay with Luke]]",
+      "links": [
+        {
+          "original": "[[Still in shock, you say nothing->The Creature]]",
+          "label": "\u001b[36mStill in shock, you say nothing\u001b[37m",
+          "newPassage": "The Creature",
+          "pid": "33",
+          "selection": "1"
+        },
+        {
+          "original": "[[You choose to stay with Luke]]",
+          "label": "\u001b[36mYou choose to stay with Luke\u001b[37m",
+          "newPassage": "You choose to stay with Luke",
+          "pid": "31",
+          "selection": "2"
+        }
+      ],
+      "text": "Amidst the chaos, Mark, Luke, and Jamie navigate through the nightmarish scene, finding refuge in a nearby Shelter House. Fear and confusion grip them as they catch their breath, sheltered temporarily from the horrors outside. But Jamie's concern for Dani drives her to insist on going back to rescue her. Luke disagrees and vots to remain in their hiding place until the cops arrive. They turn to you for the tie breaker."
+    },
+    {
+      "name": "You choose to stay with Luke",
+      "tags": "",
+      "pid": "31",
+      "original": "You prioritize safety over the uncertainty of Dani's fate. Your words, although rooted in caution, wound Jamie deeply. Fueled by determination and anguish for her friend, Jamie chooses to brave the night alone, determined to find Dani, who may be in peril. As she leaves the shelter, her departure leaves a haunting silence in its wake.\n\n[[Did you make the right decision?]]",
+      "links": [
+        {
+          "original": "[[Did you make the right decision?]]",
+          "label": "\u001b[36mDid you make the right decision?\u001b[37m",
+          "newPassage": "Did you make the right decision?",
+          "pid": "32",
+          "selection": "1"
+        }
+      ],
+      "text": "You prioritize safety over the uncertainty of Dani's fate. Your words, although rooted in caution, wound Jamie deeply. Fueled by determination and anguish for her friend, Jamie chooses to brave the night alone, determined to find Dani, who may be in peril. As she leaves the shelter, her departure leaves a haunting silence in its wake."
+    },
+    {
+      "name": "Did you make the right decision?",
+      "tags": "",
+      "pid": "32",
+      "original": "You and Luke huddle in the darkness, hidden from view, while Jamie bravely ventures out to search for Dani. Tension hangs heavy in the air as you await her return, the minutes stretching into an agonizing eternity. \n\n[[You hear a girl yelling at the dark->Dani?]]",
+      "links": [
+        {
+          "original": "[[You hear a girl yelling at the dark->Dani?]]",
+          "label": "\u001b[36mYou hear a girl yelling at the dark\u001b[37m",
+          "newPassage": "Dani?",
+          "pid": "40",
+          "selection": "1"
+        }
+      ],
+      "text": "You and Luke huddle in the darkness, hidden from view, while Jamie bravely ventures out to search for Dani. Tension hangs heavy in the air as you await her return, the minutes stretching into an agonizing eternity."
+    },
+    {
+      "name": "The Creature",
+      "tags": "",
+      "pid": "33",
+      "original": "Before any decision can be made, one of the nightmarish creatures materializes, its grotesque form looming over you and your friends. It sniffs the air with an unsettling, otherworldly hunger. Panic surges as you collectively hold your breath, desperately hoping the creature's malevolent attention will pass, unsure of what your next move should be.\n\n[[Stay still->Ending5]]\n[[Run into the wood->Muddy]]",
+      "links": [
+        {
+          "original": "[[Stay still->Ending5]]",
+          "label": "\u001b[36mStay still\u001b[37m",
+          "newPassage": "Ending5",
+          "pid": "34",
+          "selection": "1"
+        },
+        {
+          "original": "[[Run into the wood->Muddy]]",
+          "label": "\u001b[36mRun into the wood\u001b[37m",
+          "newPassage": "Muddy",
+          "pid": "35",
+          "selection": "2"
+        }
+      ],
+      "text": "Before any decision can be made, one of the nightmarish creatures materializes, its grotesque form looming over you and your friends. It sniffs the air with an unsettling, otherworldly hunger. Panic surges as you collectively hold your breath, desperately hoping the creature's malevolent attention will pass, unsure of what your next move should be."
+    },
+    {
+      "name": "Ending5",
+      "tags": "",
+      "pid": "34",
+      "original": "Paralyzed by fear, your decision to stay put proves detrimental as the creature effortlessly tracks you down, amongst the plastic tables. The nightmarish beast descends upon Luke first, lunging at his throat. It turns on Jamie next\n\nIn an act of sheer heroism, you position yourself between the creature and Jamie. The creature, an equal opportunist, unleashes its savage fury upon you. Agony courses through your body as the relentless assault unfolds, your life slowly slipping away. \n\n[[You have died->Restart]]",
+      "links": [
+        {
+          "original": "[[You have died->Restart]]",
+          "label": "\u001b[36mYou have died\u001b[37m",
+          "newPassage": "Restart",
+          "pid": "24",
+          "selection": "1"
+        }
+      ],
+      "text": "Paralyzed by fear, your decision to stay put proves detrimental as the creature effortlessly tracks you down, amongst the plastic tables. The nightmarish beast descends upon Luke first, lunging at his throat. It turns on Jamie next\n\nIn an act of sheer heroism, you position yourself between the creature and Jamie. The creature, an equal opportunist, unleashes its savage fury upon you. Agony courses through your body as the relentless assault unfolds, your life slowly slipping away."
+    },
+    {
+      "name": "Muddy",
+      "tags": "",
+      "pid": "35",
+      "original": "With hearts pounding and terror driving them, you, Luke, and Jamie make a desperate sprint into the nearby woods. The forest embraces you in its shroud of darkness, and your feet sink into the deep pools of [[mud->The Rain]] beneath the thick canopy of trees.\n\nThe creature remains in relentless pursuit, not far behind. The sounds of its eerie presence, a nightmarish symphony of unearthly growls and rustling leaves, echo through the dense forest. Panic drives your steps, and the [[mud-slicked ground->The Plan]] beneath your feet becomes an unforgiving obstacle\n\n[[You push harder->Ending6]]",
+      "links": [
+        {
+          "original": "[[mud->The Rain]]",
+          "label": "\u001b[36mmud\u001b[37m",
+          "newPassage": "The Rain",
+          "pid": "36",
+          "selection": "1"
+        },
+        {
+          "original": "[[mud-slicked ground->The Plan]]",
+          "label": "\u001b[36mmud-slicked ground\u001b[37m",
+          "newPassage": "The Plan",
+          "pid": "37",
+          "selection": "2"
+        },
+        {
+          "original": "[[You push harder->Ending6]]",
+          "label": "\u001b[36mYou push harder\u001b[37m",
+          "newPassage": "Ending6",
+          "pid": "38",
+          "selection": "3"
+        }
+      ],
+      "text": "With hearts pounding and terror driving them, you, Luke, and Jamie make a desperate sprint into the nearby woods. The forest embraces you in its shroud of darkness, and your feet sink into the deep pools of  beneath the thick canopy of trees.\n\nThe creature remains in relentless pursuit, not far behind. The sounds of its eerie presence, a nightmarish symphony of unearthly growls and rustling leaves, echo through the dense forest. Panic drives your steps, and the  beneath your feet becomes an unforgiving obstacle"
+    },
+    {
+      "name": "The Rain",
+      "tags": "",
+      "pid": "36",
+      "original": "The relentless rain from the previous week has transformed the forest floor into a [[quagmire->Muddy]].",
+      "links": [
+        {
+          "original": "[[quagmire->Muddy]]",
+          "label": "\u001b[36mquagmire\u001b[37m",
+          "newPassage": "Muddy",
+          "pid": "35",
+          "selection": "1"
+        }
+      ],
+      "text": "The relentless rain from the previous week has transformed the forest floor into a ."
+    },
+    {
+      "name": "The Plan",
+      "tags": "",
+      "pid": "37",
+      "original": "Realization dawns in the midst of chaos. You urgently instruct Luke and Jamie to coat themselves in mud, hoping to mask your scent and render yourselves invisible to the tracking creature. As the beast approaches, you boldly test your theory, revealing that the creature is blind, relying solely on its keen sense of smell.\n\nCovered in mud and confusion, the creature sniffs the air, its senses overwhelmed by the earthy scent, unable to locate you. Disoriented, it eventually turns away, retreating to the lake shore.\n\n[[That actually worked?!->Ending7]]",
+      "links": [
+        {
+          "original": "[[That actually worked?!->Ending7]]",
+          "label": "\u001b[36That actually worked?!\u001b[37m",
+          "newPassage": "Ending7",
+          "pid": "39",
+          "selection": "1"
+        }
+      ],
+      "text": "Realization dawns in the midst of chaos. You urgently instruct Luke and Jamie to coat themselves in mud, hoping to mask your scent and render yourselves invisible to the tracking creature. As the beast approaches, you boldly test your theory, revealing that the creature is blind, relying solely on its keen sense of smell.\n\nCovered in mud and confusion, the creature sniffs the air, its senses overwhelmed by the earthy scent, unable to locate you. Disoriented, it eventually turns away, retreating to the lake shore."
+    },
+    {
+      "name": "Ending6",
+      "tags": "",
+      "pid": "38",
+      "original": "Despite your efforts, the creature eventually catches up, its malevolence unyielding. In a horrifying climax, it launches a savage assault, leaving no survivors in its wake. \n\n[[You have died->Restart]]",
+      "links": [
+        {
+          "original": "[[You have died->Restart]]",
+          "label": "\u001b[36mYou have died\u001b[37m",
+          "newPassage": "Restart",
+          "pid": "24",
+          "selection": "1"
+        }
+      ],
+      "text": "Despite your efforts, the creature eventually catches up, its malevolence unyielding. In a horrifying climax, it launches a savage assault, leaving no survivors in its wake."
+    },
+    {
+      "name": "Ending7",
+      "tags": "",
+      "pid": "39",
+      "original": "Cautiously, you and your friends make your way through the woods until you stumble upon a gas station. There, you approach a kind stranger and manage to persuade him to give you a ride back to campus. In collective agreement, you decide not to divulge the terrifying encounters with ghosts and monsters you've experienced, lest you be dismissed as mad. Instead, you keep those harrowing memories hidden. The journey back to campus unfolds in a tense silence.\n\n[[You story ends here->Restart]]",
+      "links": [
+        {
+          "original": "[[You story ends here->Restart]]",
+          "label": "\u001b[36mYour story ends here\u001b[37m",
+          "newPassage": "Restart",
+          "pid": "24",
+          "selection": "1"
+        }
+      ],
+      "text": "Cautiously, you and your friends make your way through the woods until you stumble upon a gas station. There, you approach a kind stranger and manage to persuade him to give you a ride back to campus. In collective agreement, you decide not to divulge the terrifying encounters with ghosts and monsters you've experienced, lest you be dismissed as mad. Instead, you keep those harrowing memories hidden. The journey back to campus unfolds in a tense silence."
+    },
+    {
+      "name": "Dani?",
+      "tags": "",
+      "pid": "40",
+      "original": "As you and Luke wait anxiously in the shelter house, a girl's desperate cries for help pierce the night. A brief, frantic discussion ensues, and you both decide to investigate, clinging to the hope that it might be Jamie in need.\n\nThe reality awaiting you is far from what you expected. In the darkness, you discover a battered and bloodied Dani, her form covered in scratches and bruises. Horror washes over you.\n\n[[Oh god Dani, what happened?!->Go find Jamie]]\n[[Where's Jamie?->Suspicion]]",
+      "links": [
+        {
+          "original": "[[Oh god Dani, what happened?!->Go find Jamie]]",
+          "label": "\u001b[36mOh god Dani, what happened?!\u001b[37m",
+          "newPassage": "Go find Jamie",
+          "pid": "41",
+          "selection": "1"
+        },
+        {
+          "original": "[[Where's Jamie?->Suspicion]]",
+          "label": "\u001b[36mWhere's Jamie?\u001b[37m",
+          "newPassage": "Suspicion",
+          "pid": "43",
+          "selection": "2"
+        }
+      ],
+      "text": "As you and Luke wait anxiously in the shelter house, a girl's desperate cries for help pierce the night. A brief, frantic discussion ensues, and you both decide to investigate, clinging to the hope that it might be Jamie in need.\n\nThe reality awaiting you is far from what you expected. In the darkness, you discover a battered and bloodied Dani, her form covered in scratches and bruises. Horror washes over you."
+    },
+    {
+      "name": "Go find Jamie",
+      "tags": "",
+      "pid": "41",
+      "original": "You and Luke listen as Dani recounts the nightmarish ordeal she endured. She speaks of the creatures and the ghastly attacks, revealing the grim fate that has befallen most of the kids. Dani, remarkably, survived an attack, but Jamie, with a sprained ankle, is in dire need of assistance, as Dani was to weak to carry her to here.\n\n[[Follow Dani to get Jamie->Ending8]]\n[[You don't quite believe Dani's story->Suspicion]]",
+      "links": [
+        {
+          "original": "[[Follow Dani to get Jamie->Ending8]]",
+          "label": "\u001b[36mFollow Dani to get Jamie\u001b[37m",
+          "newPassage": "Ending8",
+          "pid": "42",
+          "selection": "1"
+        },
+        {
+          "original": "[[You don't quite believe Dani's story->Suspicion]]",
+          "label": "\u001b[36mYou don't quite believe Dani's story\u001b[37m",
+          "newPassage": "Suspicion",
+          "pid": "43",
+          "selection": "2"
+        }
+      ],
+      "text": "You and Luke listen as Dani recounts the nightmarish ordeal she endured. She speaks of the creatures and the ghastly attacks, revealing the grim fate that has befallen most of the kids. Dani, remarkably, survived an attack, but Jamie, with a sprained ankle, is in dire need of assistance, as Dani was to weak to carry her to here."
+    },
+    {
+      "name": "Ending8",
+      "tags": "",
+      "pid": "42",
+      "original": "Dani leads you and Luke to moonlit clearing. You anxiously inquire about Jamie's whereabouts, but Dani, facing away from you, remains silent. An eerie sense of unease creeps in as shadows shift in the surrounding woods.\n\nSuddenly, the night erupts in terror as the creatures emerge from the woods, advancing toward the clearing. Panic grips you and Luke, and you desperately try to shake Dani from her trance, urging her to run. But she stands motionless, unresponsive.\n\nIn a horrific twist, Dani's head grotesquely twists to face you, her mouth contorting into a nightmarish scream. It's then that you realize the dreadful truth – this is a trap, and the creatures close in with terrifying ferocity. \n\n[[You have died->Restart]]",
+      "links": [
+        {
+          "original": "[[You have died->Restart]]",
+          "label": "\u001b[36mYou have died\u001b[37m",
+          "newPassage": "Restart",
+          "pid": "24",
+          "selection": "1"
+        }
+      ],
+      "text": "Dani leads you and Luke to moonlit clearing. You anxiously inquire about Jamie's whereabouts, but Dani, facing away from you, remains silent. An eerie sense of unease creeps in as shadows shift in the surrounding woods.\n\nSuddenly, the night erupts in terror as the creatures emerge from the woods, advancing toward the clearing. Panic grips you and Luke, and you desperately try to shake Dani from her trance, urging her to run. But she stands motionless, unresponsive.\n\nIn a horrific twist, Dani's head grotesquely twists to face you, her mouth contorting into a nightmarish scream. It's then that you realize the dreadful truth – this is a trap, and the creatures close in with terrifying ferocity."
+    },
+    {
+      "name": "Suspicion",
+      "tags": "",
+      "pid": "43",
+      "original": "You can't shake the nagging suspicion that something is wrong with Dani. As wariness courses through your veins, you observe that none of the blood on her dress appears to match her own wounds.\n\n\"What did you do to Jamie?\"\n\nYour question unnerves Luke, who interprets it as insensitivity in the midst of this terrifying situation. However, you can't ignore the glaring inconsistency, and you keep pressing, asking Dani \n\n[[whose blood it is that stains her dress->Possessed]]",
+      "links": [
+        {
+          "original": "[[whose blood it is that stains her dress->Possessed]]",
+          "label": "\u001b[36mwhose blood it is that stains her dress\u001b[37m",
+          "newPassage": "Possessed",
+          "pid": "44",
+          "selection": "1"
+        }
+      ],
+      "text": "You can't shake the nagging suspicion that something is wrong with Dani. As wariness courses through your veins, you observe that none of the blood on her dress appears to match her own wounds.\n\n\"What did you do to Jamie?\"\n\nYour question unnerves Luke, who interprets it as insensitivity in the midst of this terrifying situation. However, you can't ignore the glaring inconsistency, and you keep pressing, asking Dani"
+    },
+    {
+      "name": "Possessed",
+      "tags": "",
+      "pid": "44",
+      "original": "As you persist in your questioning, Dani's demeanor takes a nightmarish turn. Her eyes seem to lose their focus, and an eerie stillness descends upon her. In a sudden, shocking eruption of violence, she lunges at Luke with inhuman strength, her movements devoid of any trace of her former self. It becomes glaringly apparent that she has been possessed somewhat by the Lake Lady.\n\n[[Help Luke->Loyal]]\n[[Save yourself->Selfish]]",
+      "links": [
+        {
+          "original": "[[Help Luke->Loyal]]",
+          "label": "\u001b[36mHelp Luke\u001b[37m",
+          "newPassage": "Loyal",
+          "pid": "45",
+          "selection": "1"
+        },
+        {
+          "original": "[[Save yourself->Selfish]]",
+          "label": "\u001b[36mSave yourself\u001b[37m",
+          "newPassage": "Selfish",
+          "pid": "46",
+          "selection": "2"
+        }
+      ],
+      "text": "As you persist in your questioning, Dani's demeanor takes a nightmarish turn. Her eyes seem to lose their focus, and an eerie stillness descends upon her. In a sudden, shocking eruption of violence, she lunges at Luke with inhuman strength, her movements devoid of any trace of her former self. It becomes glaringly apparent that she has been possessed somewhat by the Lake Lady."
+    },
+    {
+      "name": "Loyal",
+      "tags": "",
+      "pid": "45",
+      "original": "With adrenaline surging, you move swiftly to help Luke, managing to shove Dani off of him. The urgency of the situation heightens as you hear the ominous sounds of the creatures drawing closer, their presence a looming threat.\n\n[[Get out of there!->Golf Cart]]",
+      "links": [
+        {
+          "original": "[[Get out of there!->Golf Cart]]",
+          "label": "\u001b[36mGet out of there!\u001b[37m",
+          "newPassage": "Golf Cart",
+          "pid": "47",
+          "selection": "1"
+        }
+      ],
+      "text": "With adrenaline surging, you move swiftly to help Luke, managing to shove Dani off of him. The urgency of the situation heightens as you hear the ominous sounds of the creatures drawing closer, their presence a looming threat."
+    },
+    {
+      "name": "Selfish",
+      "tags": "",
+      "pid": "46",
+      "original": "With a heavy heart, you choose to use Dani's attack on Luke as a distraction to make your escape. Panic coursing through your veins, you manage to flee, leaving behind a nightmarish scene of violence and terror.\n\n[[Get out of there->Ending10]]",
+      "links": [
+        {
+          "original": "[[Get out of there->Ending10]]",
+          "label": "\u001b[36mGet out of there\u001b[37m",
+          "newPassage": "Ending10",
+          "pid": "49",
+          "selection": "1"
+        }
+      ],
+      "text": "With a heavy heart, you choose to use Dani's attack on Luke as a distraction to make your escape. Panic coursing through your veins, you manage to flee, leaving behind a nightmarish scene of violence and terror."
+    },
+    {
+      "name": "Golf Cart",
+      "tags": "",
+      "pid": "47",
+      "original": "Amidst the chaos, you spot a golf cart parked just a few feet away from the shelter house. Without wasting a moment, you signal to Luke, and both of you hastily jump into the cart. Realizing there are no keys available, you breathe a sigh of relief as Luke skillfully hotwires the vehicle, bypassing the need for keys.\n\n[[Escape->Ending9]]",
+      "links": [
+        {
+          "original": "[[Escape->Ending9]]",
+          "label": "\u001b[36mEscape\u001b[37m",
+          "newPassage": "Ending9",
+          "pid": "48",
+          "selection": "1"
+        }
+      ],
+      "text": "Amidst the chaos, you spot a golf cart parked just a few feet away from the shelter house. Without wasting a moment, you signal to Luke, and both of you hastily jump into the cart. Realizing there are no keys available, you breathe a sigh of relief as Luke skillfully hotwires the vehicle, bypassing the need for keys."
+    },
+    {
+      "name": "Ending9",
+      "tags": "",
+      "pid": "48",
+      "original": "As the engine roars to life, the golf cart becomes your beacon of hope in the heart of the terrifying forest. With the creatures closing in, you and Luke speed away into the darkness, the golf cart's motor carrying you away from the horrors of Lake Monroe and towards the elusive safety you desperately seek.\n\n[[Your story ends here->Restart]]",
+      "links": [
+        {
+          "original": "[[Your story ends here->Restart]]",
+          "label": "\u001b[36mYour story ends here\u001b[37m",
+          "newPassage": "Restart",
+          "pid": "24",
+          "selection": "1"
+        }
+      ],
+      "text": "As the engine roars to life, the golf cart becomes your beacon of hope in the heart of the terrifying forest. With the creatures closing in, you and Luke speed away into the darkness, the golf cart's motor carrying you away from the horrors of Lake Monroe and towards the elusive safety you desperately seek."
+    },
+    {
+      "name": "Ending10",
+      "tags": "",
+      "pid": "49",
+      "original": "You stumble upon a golf cart nearby, but the absence of its keys leaves you in a perilous situation. As the creatures close in, their menacing presence envelops you. Trapped and with no means of starting the vehicle, you are left defenseless against their relentless onslaught. The creatures attack, leaving you to confront the dark and horrific fate that has befallen you in this night of unimaginable terror.\n \n [[You have died->Restart]]",
+      "links": [
+        {
+          "original": "[[You have died->Restart]]",
+          "label": "\u001b[36mYou have died\u001b[37m",
+          "newPassage": "Restart",
+          "pid": "24",
+          "selection": "1"
+        }
+      ],
+      "text": "You stumble upon a golf cart nearby, but the absence of its keys leaves you in a perilous situation. As the creatures close in, their menacing presence envelops you. Trapped and with no means of starting the vehicle, you are left defenseless against their relentless onslaught. The creatures attack, leaving you to confront the dark and horrific fate that has befallen you in this night of unimaginable terror."
+    },
+    {
+      "name": "Phone Call",
+      "tags": "",
+      "pid": "50",
+      "original": "You decide to seize the opportunity and call Dani. Your heart races as you dial Dani's number. When Dani answers and agrees to come to the party, You feel a rush of excitement.\n\n\"Great! I can't wait to see you,\" You say with a smile. You quickly get ready, counting down the minutes until Dani arrives at your dorm. \n\n[[You hear a knock at your door->Dorm Room]]",
+      "links": [
+        {
+          "original": "[[You hear a knock at your door->Dorm Room]]",
+          "label": "\u001b[36mYou hear a knock at your door\u001b[37m",
+          "newPassage": "Dorm Room",
+          "pid": "52",
+          "selection": "1"
+        }
+      ],
+      "text": "You decide to seize the opportunity and call Dani. Your heart races as you dial Dani's number. When Dani answers and agrees to come to the party, You feel a rush of excitement.\n\n\"Great! I can't wait to see you,\" You say with a smile. You quickly get ready, counting down the minutes until Dani arrives at your dorm."
+    },
+    {
+      "name": "Without Dani",
+      "tags": "",
+      "pid": "51",
+      "original": "You hesitate and ultimately decide against calling Dani. Instead, you send a quick reply to Mark, confirming his plans to pick you up.\n\nAs you prepare for Mark's arrival, you can't help but wonder if she had missed an opportunity with Dani. Still, the excitement of the impending party and the chance to spend time with your friends lightens your mood.\n\n[[Head to the party->Ending11]]",
+      "links": [
+        {
+          "original": "[[Head to the party->Ending11]]",
+          "label": "\u001b[36mHead to the party\u001b[37m",
+          "newPassage": "Ending11",
+          "pid": "55",
+          "selection": "1"
+        }
+      ],
+      "text": "You hesitate and ultimately decide against calling Dani. Instead, you send a quick reply to Mark, confirming his plans to pick you up.\n\nAs you prepare for Mark's arrival, you can't help but wonder if she had missed an opportunity with Dani. Still, the excitement of the impending party and the chance to spend time with your friends lightens your mood."
+    },
+    {
+      "name": "Dorm Room",
+      "tags": "",
+      "pid": "52",
+      "original": "In your dorm room, you and Dani sit in front of the mirror, helping each other with your makeup. Your laughter fills the room as you share stories and trade makeup tips. The bond between you and Dani deepens with every brush stroke and smudge of eyeliner.\n\nYou get a text from Mark, letting you know he's downstairs.\n\n[[You and Dani head down->The Car]]\n[[Are you forgetting something?->Pepper Spray]]",
+      "links": [
+        {
+          "original": "[[You and Dani head down->The Car]]",
+          "label": "\u001b[36mYou and Dani head down\u001b[37m",
+          "newPassage": "The Car",
+          "pid": "54",
+          "selection": "1"
+        },
+        {
+          "original": "[[Are you forgetting something?->Pepper Spray]]",
+          "label": "\u001b[36mAre you forgetting something?\u001b[37m",
+          "newPassage": "Pepper Spray",
+          "pid": "53",
+          "selection": "2"
+        }
+      ],
+      "text": "In your dorm room, you and Dani sit in front of the mirror, helping each other with your makeup. Your laughter fills the room as you share stories and trade makeup tips. The bond between you and Dani deepens with every brush stroke and smudge of eyeliner.\n\nYou get a text from Mark, letting you know he's downstairs."
+    },
+    {
+      "name": "Pepper Spray",
+      "tags": "",
+      "pid": "53",
+      "original": "You take a second to check to you have everything, then grab your pepper spray from the dresser. With a quick exchange of smiles, you and Dani make your way downstairs to join Mark and Luke and head to the party.\n\n[[You get to the party->Behind the Tree]]",
+      "links": [
+        {
+          "original": "[[You get to the party->Behind the Tree]]",
+          "label": "\u001b[36mYou get to the party\u001b[37m",
+          "newPassage": "Behind the Tree",
+          "pid": "57",
+          "selection": "1"
+        }
+      ],
+      "text": "You take a second to check to you have everything, then grab your pepper spray from the dresser. With a quick exchange of smiles, you and Dani make your way downstairs to join Mark and Luke and head to the party."
+    },
+    {
+      "name": "The Car",
+      "tags": "",
+      "pid": "54",
+      "original": "You and Dani pile into the backseat with Luke, Simon and Mark in tghe front. You guys make your way to the party. \n\nSimon turns on the radio, and a Taylor Swift song blasts out the speakers. You, Dani, Mark, and Luke scream out the lyrics.\n\n[[It's a long drive for Simon->At the Party]]",
+      "links": [
+        {
+          "original": "[[It's a long drive for Simon->At the Party]]",
+          "label": "\u001b[36mIt's a long drive for Simon\u001b[37m",
+          "newPassage": "At the Party",
+          "pid": "56",
+          "selection": "1"
+        }
+      ],
+      "text": "You and Dani pile into the backseat with Luke, Simon and Mark in tghe front. You guys make your way to the party. \n\nSimon turns on the radio, and a Taylor Swift song blasts out the speakers. You, Dani, Mark, and Luke scream out the lyrics."
+    },
+    {
+      "name": "Ending11",
+      "tags": "",
+      "pid": "55",
+      "original": "Without Dani, you finds yourself growing increasingly bored at the party. You decide that the night isn't going to get more interesting.\n\nFeeling tired, You seek out Simon and leave the party early. Simon, who looked liked he rather be anywhere else, agrees, and you make your way back to campus, the sounds of the party at Lake Monroe fading into the distance.\n\n[[Your story ends here->Restart]]",
+      "links": [
+        {
+          "original": "[[Your story ends here->Restart]]",
+          "label": "\u001b[36mYour story ends here\u001b[37m",
+          "newPassage": "Restart",
+          "pid": "24",
+          "selection": "1"
+        }
+      ],
+      "text": "Without Dani, you finds yourself growing increasingly bored at the party. You decide that the night isn't going to get more interesting.\n\nFeeling tired, You seek out Simon and leave the party early. Simon, who looked liked he rather be anywhere else, agrees, and you make your way back to campus, the sounds of the party at Lake Monroe fading into the distance."
+    },
+    {
+      "name": "At the Party",
+      "tags": "",
+      "pid": "56",
+      "original": "At the party, you and Dani decide to stick together, away from the bustling crowd. You find a secluded spot behind a tree, a distance from the rest of the group. There, you and Dani share a few drinks and engage in a heartfelt conversation, your voices carrying through the night air as they open up to each other.\n\n[[You notice how close the two of your are->Kiss?]]",
+      "links": [
+        {
+          "original": "[[You notice how close the two of your are->Kiss?]]",
+          "label": "\u001b[36mYou notice how close the two of you are\u001b[37m",
+          "newPassage": "Kiss?",
+          "pid": "58",
+          "selection": "1"
+        }
+      ],
+      "text": "At the party, you and Dani decide to stick together, away from the bustling crowd. You find a secluded spot behind a tree, a distance from the rest of the group. There, you and Dani share a few drinks and engage in a heartfelt conversation, your voices carrying through the night air as they open up to each other."
+    },
+    {
+      "name": "Behind the Tree",
+      "tags": "",
+      "pid": "57",
+      "original": "At the party, you and Dani decide to stick together, away from the bustling crowd. You find a secluded spot behind a tree, a distance from the rest of the group. There, you and Dani share a few drinks and engage in a heartfelt conversation, your voices carrying through the night air as they open up to each other.\n\n[[You notice how close the two of your are->Close Quarters]]",
+      "links": [
+        {
+          "original": "[[You notice how close the two of your are->Close Quarters]]",
+          "label": "\u001b[36mYou notice how close the two of you are\u001b[37m",
+          "newPassage": "Close Quarters",
+          "pid": "59",
+          "selection": "1"
+        }
+      ],
+      "text": "At the party, you and Dani decide to stick together, away from the bustling crowd. You find a secluded spot behind a tree, a distance from the rest of the group. There, you and Dani share a few drinks and engage in a heartfelt conversation, your voices carrying through the night air as they open up to each other."
+    },
+    {
+      "name": "Kiss?",
+      "tags": "",
+      "pid": "58",
+      "original": "You become acutely aware of how close you and Dani are to each other. Your shoulders brush, and the atmosphere is charged with an unspoken connection. You can feel your heart racing.\n\n[[You lean in for a kiss->Attempt]]\n[[Make a joke->Not Funny]]",
+      "links": [
+        {
+          "original": "[[You lean in for a kiss->Attempt]]",
+          "label": "\u001b[36mYou lean in for a kiss\u001b[37m",
+          "newPassage": "Attempt",
+          "pid": "60",
+          "selection": "1"
+        },
+        {
+          "original": "[[Make a joke->Not Funny]]",
+          "label": "\u001b[36mMake a joke\u001b[37m",
+          "newPassage": "Not Funny",
+          "pid": "61",
+          "selection": "2"
+        }
+      ],
+      "text": "You become acutely aware of how close you and Dani are to each other. Your shoulders brush, and the atmosphere is charged with an unspoken connection. You can feel your heart racing."
+    },
+    {
+      "name": "Close Quarters",
+      "tags": "",
+      "pid": "59",
+      "original": "You become acutely aware of how close you and Dani are to each other. Your shoulders brush, and the atmosphere is charged with an unspoken connection. You can feel your heart racing.\n\n[[You lean in for a kiss->Attempt]]\n[[Make a joke->Dad Joke]]",
+      "links": [
+        {
+          "original": "[[You lean in for a kiss->Attempt]]",
+          "label": "\u001b[36mYou lean in for a kiss\u001b[37m",
+          "newPassage": "Attempt",
+          "pid": "60",
+          "selection": "1"
+        },
+        {
+          "original": "[[Make a joke->Dad Joke]]",
+          "label": "\u001b[36mMake a joke\u001b[37m",
+          "newPassage": "Dad Joke",
+          "pid": "62",
+          "selection": "2"
+        }
+      ],
+      "text": "You become acutely aware of how close you and Dani are to each other. Your shoulders brush, and the atmosphere is charged with an unspoken connection. You can feel your heart racing."
+    },
+    {
+      "name": "Attempt",
+      "tags": "",
+      "pid": "60",
+      "original": "With a subtle shift in your posture, you edge just a little bit closer to Dani, your eyes meeting in the moonlight. The tension between you is palpable. You take a deep breath, but at the last second chicken out, playing your attempt off as a hug.\n\n[[Embrassing->Ending12]]",
+      "links": [
+        {
+          "original": "[[Embrassing->Ending12]]",
+          "label": "\u001b[36mEmbrassing\u001b[37m",
+          "newPassage": "Ending12",
+          "pid": "63",
+          "selection": "1"
+        }
+      ],
+      "text": "With a subtle shift in your posture, you edge just a little bit closer to Dani, your eyes meeting in the moonlight. The tension between you is palpable. You take a deep breath, but at the last second chicken out, playing your attempt off as a hug."
+    },
+    {
+      "name": "Not Funny",
+      "tags": "",
+      "pid": "61",
+      "original": "You nerves get the best of you, so you decide to break the tension with a joke. You offer a playful grin and shares a lighthearted quip, hoping to ease the atmosphere between you and Dani.\n\nWhich knight invented King Arthur's Round Table? Sir Cumference.\n\nDani cringes slightly but offers a soft chuckle. You try for another joke, but you are interrupted by and snap of a branch and an accompanying growl.\n\n[[You and Dani turn to the source->Creature]]",
+      "links": [
+        {
+          "original": "[[You and Dani turn to the source->Creature]]",
+          "label": "\u001b[36mYou and Dani turn to the source\u001b[37m",
+          "newPassage": "Creature",
+          "pid": "65",
+          "selection": "1"
+        }
+      ],
+      "text": "You nerves get the best of you, so you decide to break the tension with a joke. You offer a playful grin and shares a lighthearted quip, hoping to ease the atmosphere between you and Dani.\n\nWhich knight invented King Arthur's Round Table? Sir Cumference.\n\nDani cringes slightly but offers a soft chuckle. You try for another joke, but you are interrupted by and snap of a branch and an accompanying growl."
+    },
+    {
+      "name": "Dad Joke",
+      "tags": "",
+      "pid": "62",
+      "original": "You nerves get the best of you, so you decide to break the tension with a joke. You offer a playful grin and shares a lighthearted quip, hoping to ease the atmosphere between you and Dani.\n\nWhich knight invented King Arthur's Round Table? Sir Cumference.\n\nDani cringes slightly but offers a soft chuckle. You try for another joke, but you are interrupted by and snap of a branch and an accompanying growl.\n\n[[You and Dani turn to the source->A Creature]]",
+      "links": [
+        {
+          "original": "[[You and Dani turn to the source->A Creature]]",
+          "label": "\u001b[36mYou and Dani turn to the source\u001b[37m",
+          "newPassage": "A Creature",
+          "pid": "64",
+          "selection": "1"
+        }
+      ],
+      "text": "You nerves get the best of you, so you decide to break the tension with a joke. You offer a playful grin and shares a lighthearted quip, hoping to ease the atmosphere between you and Dani.\n\nWhich knight invented King Arthur's Round Table? Sir Cumference.\n\nDani cringes slightly but offers a soft chuckle. You try for another joke, but you are interrupted by and snap of a branch and an accompanying growl."
+    },
+    {
+      "name": "Ending12",
+      "tags": "",
+      "pid": "63",
+      "original": "Dani decides to take the initiative. With a sudden and unexpected move, she leans in and kisses you.\n\nTime seems to stand still as your lips meet, and the world around you fades into the background. When the two of you finally pull away, your eyes meet, and there's no denying your feelings for each other.\n\nYou and Dani agree to take an Uber back to your dorm for more privacy.\n\n[[Your story ends here->Restart]]",
+      "links": [
+        {
+          "original": "[[Your story ends here->Restart]]",
+          "label": "\u001b[36mYour story ends here\u001b[37m",
+          "newPassage": "Restart",
+          "pid": "24",
+          "selection": "1"
+        }
+      ],
+      "text": "Dani decides to take the initiative. With a sudden and unexpected move, she leans in and kisses you.\n\nTime seems to stand still as your lips meet, and the world around you fades into the background. When the two of you finally pull away, your eyes meet, and there's no denying your feelings for each other.\n\nYou and Dani agree to take an Uber back to your dorm for more privacy."
+    },
+    {
+      "name": "A Creature",
+      "tags": "",
+      "pid": "64",
+      "original": "You are confronted with a nightmarish vision that chills you to your core. The creature stands tall and imposing, its grotesque form illuminated by the moonlight. \n\nAs the terrifying monster looms before them, you instinctively position yourself in front of Dani, determined to protect her. Your heart races, and adrenaline surges through your veins.\n\nWhen the creature strikes, you react...\n\n[[You pull out your pepper spray->Escape]]\n[[Human shield->Ending14]]\n[[You grab Dani's hand and run->Separated]]",
+      "links": [
+        {
+          "original": "[[You pull out your pepper spray->Escape]]",
+          "label": "\u001b[36mYou pull out your pepper spray\u001b[37m",
+          "newPassage": "Escape",
+          "pid": "66",
+          "selection": "1"
+        },
+        {
+          "original": "[[Human shield->Ending14]]",
+          "label": "\u001b[36mHuman shield\u001b[37m",
+          "newPassage": "Ending14",
+          "pid": "67",
+          "selection": "2"
+        },
+        {
+          "original": "[[You grab Dani's hand and run->Separated]]",
+          "label": "\u001b[36mYou grab Dani's hand and run\u001b[37m",
+          "newPassage": "Separated",
+          "pid": "68",
+          "selection": "3"
+        }
+      ],
+      "text": "You are confronted with a nightmarish vision that chills you to your core. The creature stands tall and imposing, its grotesque form illuminated by the moonlight. \n\nAs the terrifying monster looms before them, you instinctively position yourself in front of Dani, determined to protect her. Your heart races, and adrenaline surges through your veins.\n\nWhen the creature strikes, you react..."
+    },
+    {
+      "name": "Creature",
+      "tags": "",
+      "pid": "65",
+      "original": "You are confronted with a nightmarish vision that chills you to your core. The creature stands tall and imposing, its grotesque form illuminated by the moonlight. \n\nAs the terrifying monster looms before them, you instinctively position yourself in front of Dani, determined to protect her. Your heart races, and adrenaline surges through your veins.\n\nWhen the creature strikes, you react...\n\n[[Human shield->Ending14]]\n[[You grab Dani's hand and run->Separated]]",
+      "links": [
+        {
+          "original": "[[Human shield->Ending14]]",
+          "label": "\u001b[36mHuman shield\u001b[37m",
+          "newPassage": "Ending14",
+          "pid": "67",
+          "selection": "1"
+        },
+        {
+          "original": "[[You grab Dani's hand and run->Separated]]",
+          "label": "\u001b[36mYou grab Dani's hand and run\u001b[37m",
+          "newPassage": "Separated",
+          "pid": "68",
+          "selection": "2"
+        }
+      ],
+      "text": "You are confronted with a nightmarish vision that chills you to your core. The creature stands tall and imposing, its grotesque form illuminated by the moonlight. \n\nAs the terrifying monster looms before them, you instinctively position yourself in front of Dani, determined to protect her. Your heart races, and adrenaline surges through your veins.\n\nWhen the creature strikes, you react..."
+    },
+    {
+      "name": "Escape",
+      "tags": "",
+      "pid": "66",
+      "original": "You reach for your pepper spray just as the creature's deadly claws close in. With trembling hands, you release a cloud of acrid, burning mist directly into the creature's face. The monster howls in agony, writhing and squirming in pain as the searing sensation overwhelms its senses\n\n[[You grab Dani's hand and run->Ending13]]",
+      "links": [
+        {
+          "original": "[[You grab Dani's hand and run->Ending13]]",
+          "label": "\u001b[36mYou grab Dani's hand and run\u001b[37m",
+          "newPassage": "Ending13",
+          "pid": "69",
+          "selection": "1"
+        }
+      ],
+      "text": "You reach for your pepper spray just as the creature's deadly claws close in. With trembling hands, you release a cloud of acrid, burning mist directly into the creature's face. The monster howls in agony, writhing and squirming in pain as the searing sensation overwhelms its senses"
+    },
+    {
+      "name": "Ending14",
+      "tags": "",
+      "pid": "67",
+      "original": "The creature's ferocious attack descends upon you, its monstrous form engulfing you in a nightmarish embrace. The world fades into darkness as your's life is extinguished.\n\n[[You have died->Restart]]",
+      "links": [
+        {
+          "original": "[[You have died->Restart]]",
+          "label": "\u001b[36mYou have died\u001b[37m",
+          "newPassage": "Restart",
+          "pid": "24",
+          "selection": "1"
+        }
+      ],
+      "text": "The creature's ferocious attack descends upon you, its monstrous form engulfing you in a nightmarish embrace. The world fades into darkness as your's life is extinguished."
+    },
+    {
+      "name": "Separated",
+      "tags": "",
+      "pid": "68",
+      "original": "With hearts pounding, you and Dani sprint deeper into the dark and muddy woods, your hands tightly clenched together. The inky darkness and treacherous mud underfoot make it a harrowing journey, and despite your best efforts to stay together, you loses track of Dani amidst the chaos.\n\nDesperation grips you as you call out for Dani, your voice echoing through the night, but there's no response. \n\nBefore you can turn back to look for her, Luke and Mark find you, half-dragging you away from the darkness and towards the relative safety of the shelter house. \n\n[[You hide below the tables->Decision]]",
+      "links": [
+        {
+          "original": "[[You hide below the tables->Decision]]",
+          "label": "\u001b[36mYou hide below the tables\u001b[37m",
+          "newPassage": "Decision",
+          "pid": "70",
+          "selection": "1"
+        }
+      ],
+      "text": "With hearts pounding, you and Dani sprint deeper into the dark and muddy woods, your hands tightly clenched together. The inky darkness and treacherous mud underfoot make it a harrowing journey, and despite your best efforts to stay together, you loses track of Dani amidst the chaos.\n\nDesperation grips you as you call out for Dani, your voice echoing through the night, but there's no response. \n\nBefore you can turn back to look for her, Luke and Mark find you, half-dragging you away from the darkness and towards the relative safety of the shelter house."
+    },
+    {
+      "name": "Ending13",
+      "tags": "",
+      "pid": "69",
+      "original": "You and Dani make a desperate run for safety. your hearts pounding, you miraculously find Mark and Luke, who have managed to locate a golf cart. Without hesitation, you and Dani rush to jump into the backseats. As the engine roars to life, Luke drive as fast and as far as he can, the wind whipping through their hair and the distant sounds of the creatures fading into the night. \n\n[[Your story ends here->Restart]]",
+      "links": [
+        {
+          "original": "[[Your story ends here->Restart]]",
+          "label": "\u001b[36mYour story ends here\u001b[37m",
+          "newPassage": "Restart",
+          "pid": "24",
+          "selection": "1"
+        }
+      ],
+      "text": "You and Dani make a desperate run for safety. your hearts pounding, you miraculously find Mark and Luke, who have managed to locate a golf cart. Without hesitation, you and Dani rush to jump into the backseats. As the engine roars to life, Luke drive as fast and as far as he can, the wind whipping through their hair and the distant sounds of the creatures fading into the night."
+    },
+    {
+      "name": "Decision",
+      "tags": "",
+      "pid": "70",
+      "original": "Inside the shelter house, panic and concern grip you as you try to persuade Mark and Luke to help find Dani, begging them to not leave her behind.\n\nHowever, Mark and Luke, weighed down by their own fears and the terrifying encounters of the night, don't believe it would be wise to venture back into the woods. They argue that it's too dangerous and unpredictable, and their priority should be to stay safe and seek help.\n\n[[Screw you guys->Lone Quest]]\n[[I'll try her phone->Attacked]]",
+      "links": [
+        {
+          "original": "[[Screw you guys->Lone Quest]]",
+          "label": "\u001b[36mScrew you guys\u001b[37m",
+          "newPassage": "Lone Quest",
+          "pid": "71",
+          "selection": "1"
+        },
+        {
+          "original": "[[I'll try her phone->Attacked]]",
+          "label": "\u001b[36mI'll try her phone\u001b[37m",
+          "newPassage": "Attacked",
+          "pid": "72",
+          "selection": "2"
+        }
+      ],
+      "text": "Inside the shelter house, panic and concern grip you as you try to persuade Mark and Luke to help find Dani, begging them to not leave her behind.\n\nHowever, Mark and Luke, weighed down by their own fears and the terrifying encounters of the night, don't believe it would be wise to venture back into the woods. They argue that it's too dangerous and unpredictable, and their priority should be to stay safe and seek help."
+    },
+    {
+      "name": "Lone Quest",
+      "tags": "",
+      "pid": "71",
+      "original": "",
+      "links": [],
+      "text": ""
+    },
+    {
+      "name": "Attacked",
+      "tags": "",
+      "pid": "72",
+      "original": "You ultimately decides not to venture back into the woods. Haunted by the guilt of leaving Dani behind, the weight of your decision to prioritize your safety gnaws at your conscience. You can only hope that somehow, against all odds, Dani will find her way back to safety.\n\n[[You, Mark, and Luke sit in silent]]",
+      "links": [
+        {
+          "original": "[[You, Mark, and Luke sit in silent]]",
+          "label": "\u001b[36mYou, Mark, and Luke sit in silent\u001b[37m",
+          "newPassage": "You, Mark, and Luke sit in silent",
+          "pid": "73",
+          "selection": "1"
+        }
+      ],
+      "text": "You ultimately decides not to venture back into the woods. Haunted by the guilt of leaving Dani behind, the weight of your decision to prioritize your safety gnaws at your conscience. You can only hope that somehow, against all odds, Dani will find her way back to safety."
+    },
+    {
+      "name": "You, Mark, and Luke sit in silent",
+      "tags": "",
+      "pid": "73",
+      "original": "You consider proposing a plan for getting out of the woods. Before you can vocalize your thoughts, a figure materializes, casting a nightmarish shadow over your hiding spot.\n\nA ghoulish and ethereal presence that faintly resembles a woman. Her form is almost translucent, like a specter woven from the moonlight itself. Her pallid skin clings to her skeletal frame, and her hair flows like liquid darkness around her. But it's her eyes that pierce the night — two orbs of pure, blinding white that seem to emit their own ghostly light. Those eyes fixate on the shelter house, their intensity sending shivers through you.\n\n[[You keep still]]",
+      "links": [
+        {
+          "original": "[[You keep still]]",
+          "label": "\u001b[36mYou keep still\u001b[37m",
+          "newPassage": "You keep still",
+          "pid": "74",
+          "selection": "1"
+        }
+      ],
+      "text": "You consider proposing a plan for getting out of the woods. Before you can vocalize your thoughts, a figure materializes, casting a nightmarish shadow over your hiding spot.\n\nA ghoulish and ethereal presence that faintly resembles a woman. Her form is almost translucent, like a specter woven from the moonlight itself. Her pallid skin clings to her skeletal frame, and her hair flows like liquid darkness around her. But it's her eyes that pierce the night — two orbs of pure, blinding white that seem to emit their own ghostly light. Those eyes fixate on the shelter house, their intensity sending shivers through you."
+    },
+    {
+      "name": "You keep still",
+      "tags": "",
+      "pid": "74",
+      "original": "From the corner of your eyes, you catch a flicker of movement, instinctively thinking it's another one of the creatures emerging from the woods. But to your shock, it's Dani, limping and battered, making her way out of the darkness.\n\nYour relief is short-lived as you realize the Lake Lady as her malevolent gaze glued on a vulnerable Dani. \n\n[[You call for Dani to run]]\n[[You charge at the spectre->Ending15]]",
+      "links": [
+        {
+          "original": "[[You call for Dani to run]]",
+          "label": "\u001b[36mYou call for Dani to run\u001b[37m",
+          "newPassage": "You call for Dani to run",
+          "pid": "75",
+          "selection": "1"
+        },
+        {
+          "original": "[[You charge at the spectre->Ending15]]",
+          "label": "\u001b[36mYou charge at the spectre\u001b[37m",
+          "newPassage": "Ending15",
+          "pid": "76",
+          "selection": "2"
+        }
+      ],
+      "text": "From the corner of your eyes, you catch a flicker of movement, instinctively thinking it's another one of the creatures emerging from the woods. But to your shock, it's Dani, limping and battered, making her way out of the darkness.\n\nYour relief is short-lived as you realize the Lake Lady as her malevolent gaze glued on a vulnerable Dani."
+    },
+    {
+      "name": "You call for Dani to run",
+      "tags": "",
+      "pid": "75",
+      "original": "As the Lake Lady fixates her chilling gaze on Dani, your voice quivers with desperation. You call out to Dani to run, your words filled with urgency. Fear courses through you as you watch the Lake Lady sprint towards Dani, heart pounding with a sense of impending doom.\n\nThe Lake Lady collides with Dani, smashing into her with enough force that she falls over backward. You watch helplessly as the entity envelops Dani, wisps of grey consuming her.\n\nLuke and Mark signal to you to run. You look at Dani's limp body.\n\n[[You follow, its too late for Dani->Ending16]]\n[[Dani needs my help]]",
+      "links": [
+        {
+          "original": "[[You follow, its too late for Dani->Ending16]]",
+          "label": "\u001b[36mYou follow, it's too late for Dani\u001b[37m",
+          "newPassage": "Ending16",
+          "pid": "77",
+          "selection": "1"
+        },
+        {
+          "original": "[[Dani needs my help]]",
+          "label": "\u001b[36mDani needs my help\u001b[37m",
+          "newPassage": "Dani needs my help",
+          "pid": "78",
+          "selection": "2"
+        }
+      ],
+      "text": "As the Lake Lady fixates her chilling gaze on Dani, your voice quivers with desperation. You call out to Dani to run, your words filled with urgency. Fear courses through you as you watch the Lake Lady sprint towards Dani, heart pounding with a sense of impending doom.\n\nThe Lake Lady collides with Dani, smashing into her with enough force that she fall over backwards. You watch helplessly as the entity envelops Dani, wisps of grey consuming her.\n\nLuke and Mark signal to you to run. You look at Dani's limp body."
+    },
+    {
+      "name": "Ending15",
+      "tags": "",
+      "pid": "76",
+      "original": "You charge at the Lake Lady, determined not to lose Dani to the malevolent creature. Alas, your valiant effort is quickly halted as the Lake Lady raises her palm, freezing you in place with an otherworldly power. Shock courses through you as you find yourself immobilized.\n\nTo your astonishment, the Lake Lady elects to not end your life. Instead, the ghastly entity examines you with an unnerving curiosity. You catch a glimpse of Luke and Mark guiding Dani to safety and urgently mouth for them to run.\n\nThe Lake Lady's intense gaze penetrates your soul. In an instant, you feel as though you have been plunged into a dark and cold place within your own mind. You register a loss of control over your body, your thoughts, your sight. \n\nThe horrifying truth dawns on you – you have become a vessel for the very entity you sought to confront. Possessed by the Lake Lady, you have joined the terrors that haunt the nights of Lake Monroe.\n\n[[You story ends here->Restart]]",
+      "links": [
+        {
+          "original": "[[You story ends here->Restart]]",
+          "label": "\u001b[36mYou story ends here\u001b[37m",
+          "newPassage": "Restart",
+          "pid": "24",
+          "selection": "1"
+        }
+      ],
+      "text": "You charge at the Lake Lady, determined not to lose Dani to the malevolent creature. Alas, your valiant effort is quickly halted as the Lake Lady raises her palm, freezing you in place with an otherworldly power. Shock courses through you as you find yourself immobilized.\n\nTo your astonishment, the Lake Lady elects to not end your life. Instead, the ghastly entity examines you with an unnerving curiosity. You catch a glimpse of Luke and Mark guiding Dani to safety and urgently mouth for them to run.\n\nThe Lake Lady's intense gaze penetrates your soul. In an instant, you feel as though as you have been plunged into a dark and cold place within your own mind. You register a loss control over your body, your thoughts, your sight. \n\nThe horrifying truth dawns on you – you have become a vessel for the very entity you sought to confront. Possessed by the Lake Lady, you have joined the terrors that haunt the nights of Lake Monroe."
+    },
+    {
+      "name": "Ending16",
+      "tags": "",
+      "pid": "77",
+      "original": "You make a difficult decision to escape with Mark and Luke. Together, you venture deeper into the woods, finding to your surprise that the creatures seem to allow you guys to pass. You wonder if, somehow, Dani may still retain a fragment of control and is protecting you from the horrors that lurk.\n\nAs the first light of dawn breaks over Lake Monroe, the creatures vanish into the shadows, their menacing presence receding. In the distance, the echoing sirens of approaching cop cars signify the arrival of help and the end of their nightmarish ordeal.\n\n[[You story ends here->Restart]]",
+      "links": [
+        {
+          "original": "[[You story ends here->Restart]]",
+          "label": "\u001b[36mYou story ends here\u001b[37m",
+          "newPassage": "Restart",
+          "pid": "24",
+          "selection": "1"
+        }
+      ],
+      "text": "You make a difficult decision to escape with Mark and Luke. Together, you venture deeper into the woods, finding to your surprise that the creatures seem to allow you guys to pass. You wonder if, somehow, Dani may still retain a fragment of control and is protecting you from the horrors that lurk.\n\nAs the first light of dawn breaks over Lake Monroe, the creatures vanish into the shadows, their menacing presence receding. In the distance, the echoing sirens of approaching cop cars signify the arrival of help and the end of their nightmarish ordeal."
+    },
+    {
+      "name": "Dani needs my help",
+      "tags": "",
+      "pid": "78",
+      "original": "In a desperate rush, you run to where Dani lies in the grass. You hammer on her chest with trembling hands, every compression a frantic plea for her friend's life. The seconds feel like hours.\n\n[[Ending17]]",
+      "links": [
+        {
+          "original": "[[Ending17]]",
+          "label": "\u001b[36mEnding17\u001b[37m",
+          "newPassage": "Ending17",
+          "pid": "79",
+          "selection": "1"
+        }
+      ],
+      "text": "In a desperate rush, you run to where Dani lies in the grass. You hammer on her chest with trembling hands, every compression a frantic plea for her friend's life. The seconds feel like hours."
+    },
+    {
+      "name": "Ending17",
+      "tags": "",
+      "pid": "79",
+      "original": "Dani jerks up, gasping for breath. Relief floods you as you wrap your arms around her, hugging her tightly in a fierce embrace. \n\nYour relief is short-lived as you feel Dani's grip tightening around your neck, her eyes taking on a sinister and malevolent gleam.\n\nIn an instant, you realize that something is horribly wrong with Dani. The Lake Lady had succeeded in turning her into a dangerous and unrecognizable force. Your life slowly and painfully ebbs away.\n\n[[You have died->Restart]]",
+      "links": [
+        {
+          "original": "[[You have died->Restart]]",
+          "label": "\u001b[36mYou have died\u001b[37m",
+          "newPassage": "Restart",
+          "pid": "24",
+          "selection": "1"
+        }
+      ],
+      "text": "Dani jerks up, gasping for breath. Relief floods you as you wrap your arms around her, hugging her tightly in a fierce embrace. \n\nYour relief is short-lived as you feel Dani's grip tightening around your neck, her eyes taking on a sinister and malevolent gleam.\n\nIn an instant, you realize that something is horribly wrong with Dani. The Lake Lady had succeeded in turning her into a dangerous and unrecognizable force. Your life slowly and painfully ebbs away."
+    }
+  ]
+}
